@@ -1,14 +1,14 @@
 import React from 'react'
 import carousalImage from './carousalImageTwo.jpg'
 import { useState } from 'react';
-import coverImage from './images/ImageSix.png'
+import coverImage from './images/imageTwo.png'
 
 import DatePicker from "react-datepicker";
 
 import "react-datepicker/dist/react-datepicker.css";
 
 
-export default function Carousal() {
+export default function GroupUmrahCarousal() {
     const [startDate, setStartDate] = useState(new Date());
     return (
         <div>
@@ -46,8 +46,8 @@ export default function Carousal() {
                         <div className='h-100 w-100 d-flex align-items-center'>
                                 <div className="">
                                     <div className="d-flex flex-column">
-                            <span className='text-light' style={{ fontFamily: 'Montserrat',fontWeight:"bolder", fontSize: "35.2px", textAlign: 'start' }}>Umrah Packages</span>
-                            <span className="text-light mb-3" style={{ fontSize: "20.6px", marginBottom: '0px', textAlign: 'start' }}>We offer the best Umrah Packages in Pakistan</span>
+                            <span className='text-light' style={{ fontFamily: 'Montserrat',fontWeight:"bolder", fontSize: "35.2px", textAlign: 'start' }}>Group Umrah Packages</span>
+                            <span className="text-light mb-3" style={{ fontSize: "20.6px", marginBottom: '0px', textAlign: 'start' }}>We offer the best Group Umrah Packages in Pakistan</span>
                             </div>
                             
 

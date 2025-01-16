@@ -8,6 +8,13 @@
         filter: invert(1);
     }
     /* This is footer CSS */
+
+
+    .accordion-button:not(.collapsed) {
+        color: #BB332F;
+        background-color: #bb332f24;
+        box-shadow: inset 0 calc(var(--bs-accordion-border-width)* -1) 0 var(--bs-accordion-border-color);
+    }
     
     .site-footer {
         background-color: #26272b;
